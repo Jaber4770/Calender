@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Jersey+15&display=swap');
+
+body{
+    font-family: "Azeret Mono", serif;
+}
+
+.calender-container{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 20px;
+}
+.date, .day{
+    background-color: gray;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.day{
+    background-color: rgb(70, 70, 70);
+}
+.previous{
+    background-color: lightgray;
+}
